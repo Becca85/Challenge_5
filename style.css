@@ -1,0 +1,102 @@
+/* couleurs
+noir : #000000;
+blanc : #FFFFFF;
+vert : #41A62A;
+*/
+
+/* Hassan, je te laisse gérer la barre noire class = zonenoire
+
+Ce qu'il me reste a faire :
+problème de marge
+probleme de responsive
+en md les images ne se placent pas correctement
+La loupe dans la barre de nav
+mettre des flaticons dans la barre de nav
+gérer 	les rollover
+		liens vert
+		opacité
+		la font
+Voila pour ce que je vois
+*/
+
+.zonenoire {
+	background-color: black;
+	color: white;
+}
+
+/* css concernant tout le document*/
+
+* {
+ margin:0;
+ padding:0;
+ }
+
+.separation {
+	height: 150px;
+}
+
+
+/* css zone image*/
+img {
+	height: 195px;
+	width: 350px;
+}
+.album {
+	height: 350px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-transform: uppercase;
+}
+
+
+/* css zone blanche*/
+
+/* css zone blanche partie 1*/
+
+h2 {
+	text-transform: uppercase;
+}
+
+/* css zone blanche partie 2*/
+
+.aside {
+	width: 300px;
+	margin-left: 20%;
+}
+
+
+h4 {
+	font-weight: bold;
+}
+
+
+
+.GrosTrait {
+	width: 300px;
+	height: 5px;
+	background-color: #000000;
+	border: none;
+	text-align: center;
+}
+
+hr {
+	width: 300px;
+	text-align: center;
+	background-color: #E5E5E5;
+}
+
+dl {
+	position: center;
+}
+
+dd {
+	color : #A98B7A
+}
+
+
+/* css le footer*/
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
