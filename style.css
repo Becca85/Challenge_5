@@ -28,10 +28,21 @@ Voila pour ce que je vois
 
 
 .separation {
-	height: 80px;
+	height: 50px;
 }
 
+/* css zone navbar*/
 
+
+nav ul li:hover{
+	background-color: green;
+}
+
+.loupe {
+	background-color: green;
+	height: 50px;
+	width: 75px;
+}
 /* css zone image*/
 img {
 	height: 195px;
@@ -47,14 +58,30 @@ img {
 
 /* css zone blanche*/
 
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
 /* css zone blanche partie 1*/
+
+.zonesBlanches {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
 
 .zoneBlanche {
 	background-color: white;
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 article{
 	margin: 0 auto;
+	text-align: center;
 }
 h2 {
 	text-transform: uppercase;
@@ -65,7 +92,7 @@ iframe {
 }
 
 p {
-	margin-bottom: 19px;
+	text-align: justify;
 }
 
 
@@ -79,9 +106,12 @@ p {
 
 h4 {
 	font-weight: bold;
+	text-align: left;
 }
 
-
+dl {
+	text-align: left;
+}
 
 .GrosTrait {
 	width: 300px;
