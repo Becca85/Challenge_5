@@ -20,19 +20,15 @@ Voila pour ce que je vois
 */
 
 .zonenoire {
-	background-color: black;
+	background-color: yellow;
 	color: white;
 }
 
 /* css concernant tout le document*/
 
-* {
- margin:0;
- padding:0;
- }
 
 .separation {
-	height: 150px;
+	height: 80px;
 }
 
 
@@ -53,9 +49,25 @@ img {
 
 /* css zone blanche partie 1*/
 
+.zoneBlanche {
+	background-color: white;
+}
+
+article{
+	margin: 0 auto;
+}
 h2 {
 	text-transform: uppercase;
+	margin-bottom: 30px;
 }
+iframe {
+	margin-bottom: 100px;
+}
+
+p {
+	margin-bottom: 19px;
+}
+
 
 /* css zone blanche partie 2*/
 
