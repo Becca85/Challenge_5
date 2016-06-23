@@ -1,0 +1,286 @@
+/* couleurs
+noir : #000000;
+blanc : #FFFFFF;
+vert : #41A62A;
+*/
+
+/* Hassan, je te laisse gérer la barre noire class = zonenoire
+Ce qu'il me reste a faire :
+problème de marge
+probleme de responsive
+en md les images ne se placent pas correctement
+La loupe dans la barre de nav
+mettre des flaticons dans la barre de nav
+gérer 	les rollover
+		liens vert
+		opacité
+		la font
+Voila pour ce que je vois
+*/
+
+.zonenoire {
+	background-color: yellow;
+	color: white;
+}
+
+/* css concernant tout le document*/
+
+
+.separation {
+	height: 50px;
+}
+
+/* css zone navbar*/
+
+
+nav ul li:hover{
+	background-color: green;
+}
+
+.loupe {
+	background-color: green;
+	height: 50px;
+	width: 75px;
+}
+/* css zone image*/
+img {
+	height: 195px;
+	width: 350px;
+}
+.album {
+	height: 350px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-transform: uppercase;
+}
+
+
+/* css zone blanche*/
+
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+/* css zone blanche partie 1*/
+
+.zonesBlanches {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.zoneBlanche {
+	background-color: white;
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+article{
+	margin: 0 auto;
+	text-align: center;
+}
+h2 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+iframe {
+	margin-bottom: 100px;
+}
+
+p {
+	text-align: justify;
+}
+
+
+/* css zone blanche partie 2*/
+
+.aside {
+	width: 300px;
+	margin-left: 20%;
+}
+
+
+h4 {
+	font-weight: bold;
+	text-align: left;
+}
+
+dl {
+	text-align: left;
+}
+
+.GrosTrait {
+	width: 300px;
+	height: 5px;
+	background-color: #000000;
+	border: none;
+	text-align: center;
+}
+
+hr {
+	width: 300px;
+	text-align: center;
+	background-color: #E5E5E5;
+}
+
+dl {
+	position: center;
+}
+
+dd {
+	color : #A98B7A
+}
+
+
+/* css le footer*/
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.navgauche {
+	padding-left: 15px;
+	padding-left: 15px;
+}
+
+
+/*partie faite par hassan*/
+/*mise en place du css  et background*/
+nav#sidebar-wrapper{ 
+	background-color: black;
+	padding: 0px;
+	
+}
+/*Les differents liens de la navbar*/
+nav#sidebar-wrapper li a{ 
+	font-size: 11px;
+	border-bottom: solid 1px grey;
+
+}
+/*Positionnement  des icons*/
+ul.sidebar-nav > li i{ 
+	float:right;
+	
+}
+/*mise en position du h2*/
+.sidebar-brand h2.name-navbar{ 
+	font-size:0.9em;
+	text-align: center;
+	color: grey;
+}
+
+
+.navbar-brand {
+	color: white !important;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+
+.nav-style {
+	background-color: black;
+}
+
+
+/*dimensionnement et background de la barre de recherche*/
+input.form-control{
+	width: 70%;
+	height: 25px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #191919;
+	
+}
+
+/*css de la  barre de recherche*/
+input#focusedInput{
+	border: solid 1px grey;
+}
+/*css texte sur la barre de navigation*/
+
+p.recent {
+	
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	
+	margin-bottom:0px;
+}
+
+img.img-responsive.col-md-12.offset-1.col-md-10{
+	margin-left:26px; 
+}
+
+p.release{
+	
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: grey;
+	font-style: italic;
+
+}
+
+p.listen {
+
+	color: white;
+	text-decoration: none;
+	margin-bottom: 70px;
+	
+	font-size: 12px;
+}
+p.listen a{
+	color: white;
+}
+p.listen a:hover{
+	color: #24890D;
+	text-decoration: none;
+}
+/*liste des titrest*/
+p.remerciements{
+	color: white;
+	
+	font-size: 11px;
+	font-weight: 800;
+	
+}
+/*autre List*/
+ul.noms-artistes{ 
+	list-style: none;
+	margin-bottom: 80px;
+	
+	font-size: 18px;
+}
+li.artistes a{
+	color:white;
+
+}
+/*hover*/
+li.artistes a:hover{
+	color: #24890D;
+	text-decoration: none;
+}
+p.site{
+	color: grey;
+	font-size: 12px;
+	padding-left: 0px; 
+	padding-right: 0px;
+	
+	margin-right: 0px;
+	text-align: center;
+
+}
+p.site a {
+	color: white;
+	text-decoration: none;
+}
+p.site a:hover{
+	color: #24890D;
+	text-decoration: none;
+}
