@@ -26,12 +26,15 @@ Voila pour ce que je vois
 
 /* css concernant tout le document*/
 
-
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 .separation {
 	height: 50px;
 }
 
-/* css zone navbar*/
+/* css navbar*/
 
 
 nav ul li:hover{
@@ -54,64 +57,79 @@ img {
 	background-color: #000000;
 	text-transform: uppercase;
 }
+/* css zone image*/
+
+.zoneImage {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	background-color: #000000;
+}
+img {
+	height: 195px;
+	width: 350px;
+}
+.album {
+	height: 350px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-transform: uppercase;
+}
 
 
 /* css zone blanche*/
 
-.row {
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-}
-
 /* css zone blanche partie 1*/
-
-.zonesBlanches {
-	background-color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-}
 
 .zoneBlanche {
 	background-color: white;
-	padding-top: 50px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.zonesBlanches{
+	margin: 0 auto;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.videotext {
+	margin: 0 auto;
+	text-align: center;
 }
 
 article{
 	margin: 0 auto;
-	text-align: center;
 }
 h2 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	text-align: center;
 }
 iframe {
-	margin-bottom: 100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 p {
+	margin: 0 auto;
+	margin-bottom: 19px;
 	text-align: justify;
+	width: 450px;
 }
 
 
 /* css zone blanche partie 2*/
 
 .aside {
+	margin: 0 auto;
 	width: 300px;
-	margin-left: 20%;
 }
 
 
 h4 {
 	font-weight: bold;
-	text-align: left;
 }
 
-dl {
-	text-align: left;
-}
+
 
 .GrosTrait {
 	width: 300px;
