@@ -1,14 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	  <title>Challenge 5</title>
+	  <title>AUDIOTHÈME</title>
 
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	 	<link rel="stylesheet" type="text/css" href="style.css">
+
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 		<link href="https://demo.audiotheme.com/progeny-mmxiv/" rel="stylesheet" type="text/css"\>
@@ -18,13 +17,17 @@
 	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</head>
 
-	<body class="container-fluid">
+	<body>
 
 					<!-- BARRE DE NAVIGATION-->
-		 <nav class="navbar navbar-inverse navbar-fixed-top">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			    <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
+			    
+
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -32,19 +35,22 @@
 			      <a class="navbar-brand" href="#">Progeny MMXIV</a>
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
+			    
 			      <ul class="nav navbar-nav navbar-right">
-			        <li class="active"><a href="#">HOME</a></li>
+			        <li><a href="#">HOME</a></li>
 			        <li><a href="#">ABOUT</a></li>
 			        <li><a href="#">MUSIC</a></li>
 			        <li><a href="#">GIGS</a></li>
 			        <li><a href="#">PHOTOS</a></li>
 			        <li><a href="#">VIDEO</a></li>
-			        <li><a href="#">f</a></li>
-			        <li><a href="#">T</a></li>
+			        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+</a></li>
+			        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 
-			         <div class="collapse navbar-collapse">
-			      <ul class="nav navbar-nav navbar-right">
-			      <li><a href="#">Loupe</a></li>
+			         <div class="collapse navbar-collapse navbar-right">
+			      <ul class="nav navbar-nav navbar-right loupe">
+			      <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+</a></li>
 			      </ul>
 			      </ul>
 			    </div>
@@ -53,45 +59,54 @@
 			</nav>
 
 					<!-- Une div pour ne pas que la suite passe sous la barre de navigation-->
-			<div class="separation">
-				
-			</div>
+			<div class="separation"></div>
 
 
 					<!-- ZONE IMAGE et BLANCHE-->
-			<div class="row">
-				<div class="col-lg-10 col-lg-push-2 row">
+		<section>
+				<div class="col-lg-10 col-lg-push-2 zoneImage">
+				<article class="zoneImage">
 
 					 		<!-- ZONE IMAGE-->
-					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 album"> 
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 album"> 
 						<img src="images/nowell-featured-image-1038x576.jpg"/>
 						<h6>Blog</h6><br/>Novitates autem si spem adferunt, ut tamquam in
 						</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 album"> 
+					<div class="col-lg-4 col-md-6  col-sm-6 col-xs-12 album"> 
 						<img src="images/rodney-hayden-atascosa-sand.jpg"/>
 						<h6>Records</h6><br/>Equitis Romani autem esse filium criminis loco</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 album">
+					<div class="col-lg-4 col-md-12  col-sm-12 col-xs-12 album"> 
 						<img src="images/322267385_640.jpg"/>
 						<h6>Videos</h6><br/>Nec sane haec sola pernicies orientem diversis</div>
+
+				</article>
 
 
 						<!-- ZONE BLANCHE-->
 
 						<!-- ZONE BLANCHE partie 1-->
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<article class="row zoneBlanche">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 zonesBlanches">
+					
 					<h2>AudioTheme Framework Demo</h2>
+					 <div class="videotext">
 					 <iframe width="474" height="267" src="https://www.youtube.com/embed/uIi44Hgjpl8" frameborder="0" allowfullscreen></iframe>
-
+					 
+					 
 					<p>The AudioTheme Framework plugin is built to work with any WordPress theme, providing the features needed for a music-oriented website and allowing you to take your content with you anywhere you go — even when switching themes.</p>
 
 					<p>In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
+					
+					</div>
+				
 				</div>
 
 					<!-- ZONE BLANCHE partie 2-->
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<aside>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 zonesBlanches">
 					<div class="aside">
 						<hr class="GrosTrait">
-						<aside>
+						
 							<h4>Upcoming Gigs</h4> 	
 						 <dl>
 						 <dt>Telluride Bluegrass Festival</dt> 
@@ -111,7 +126,7 @@
 						    <dd>London, ENG, United Kingdom </dd>
 						    <dd>April 24, 2017</dd>
 						    </dl> 
-						</aside>
+						
 
 						<hr class="GrosTrait">
 						
@@ -120,51 +135,54 @@
 							<p>Overview showcasing a few of the features available in the AudioTheme Framework via the WordPress admin.</p>
 					</div>
 				</div>
-			</div>			
+			</div>	
+			</aside>
+			</article>
+		</section>		
 
 
 							<!-- ZONE BARRE NOIRE pour Hassan-->
-			<div class="col-lg-2 col-lg-pull-10 md-push-12 col-xs-12 zonenoire">
-				<h1>ZONE 1 et 2 barre noire a gauche</h1>
-				<!--nav gauche-->
-<div class="row">
-	<!--<section class="col-md-2">-->
-	<section class="col-lg-2 col-lg-pull-10">
+								<div class="row">
+	<section class="col-lg-2 col-lg-pull-10 navgauche">
 	<nav id="sidebar-wrapper"  class="navbar navbar-inverse" role="navigation">
 	        <ul class="nav sidebar-nav">
 	            <li class="sidebar-brand">
-	                    <h2 class="name-navbar">Twenty Fourteen Child Theme</h2>
+	                <h2 class="name-navbar visible-lg hidden-xs">Twenty Fourteen Child Theme</h2>
 	            </li>
-	            <li><a class="nav-liens" href="#">CREDITS</a></li>
-	            <li><a class="nav-liens" href="#">BLOG/NEWS</a></li>
-	            <li><a class="nav-liens" href="#">STYLE GUIDE</a></li>
-	            <li><a class="nav-liens" href="#">CONTACT</a></li>
-	            <li><a class="nav-liens" href="#">TRY AUDIOTHEME!</a></li>
-	            <li><a class="nav-liens" href="#">GITHUB<i class="fa fa-github" aria-hidden="true"></i></a></li>
-	            <li><a class="nav-liens" href="#">WORDPRESS<i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">CREDITS</a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">BLOG/NEWS</a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">STYLE GUIDE</a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">CONTACT</a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">TRY AUDIOTHEME!</a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">GITHUB<i class="fa fa-github fa-1x" aria-hidden="true"></i></a></li>
+	            <li class="border-nav"><a class="nav-liens" href="#">WORDPRESS<i class="fa fa-wordpress fa-1x" aria-hidden="true"></i></a></li>
 	            <li><input class="form-control" id="focusedInput" type="text" value="Search..."/></li>
 	        </ul>
 
-			<div class="row" >
-				<p class="recent col-md-offset-1 col-md-10">RECENT RELEASE</p>
-				 <a href ="#"><img class="img-responsive col-md-offset-1 col-md-10" src="img/wide-listener-1024x1024.jpg"/></a>
-				<p class="release col-md-offset-1 col-md-10">Released 9.10.13</p>
-				<p class="listen  col-md-offset-1 col-md-10"><a href ="#">Listen Now</a></p>
+			
+				<p class="recent col-lg-offset-1 col-lg-10">RECENT RELEASE</p>
+			<div class="tentative-hover-image">
+				 <a href ="#"><img class="img-responsive col-lg-12" src="img/wide-listener-1024x1024.jpg"/></a>
+			</div>
+				<p class="release col-lg-offset-1 col-lg-10">Released 9.10.13</p>
+				<p class="listen col-lg-offset-1 col-lg-10"><a href ="#">Listen Now</a></p>
 
-				<p class="remerciements  col-md-offset-1 col-md-10">SPECIAL THANKS</p>
-				<ul class="noms-artistes col-md-offset-1 col-md-10">
+				<p class="remerciements col-lg-offset-1 col-lg-10">SPECIAL THANKS</p>
+				<ul class="noms-artistes col-lg-offset-1 col-lg-10">
 					<li class="artistes"><a href="#">Drew Kennedy</a></li>
+				<hr class="barre-grise col-lg-4 col-md-6 col-sm-12 hidden-lg hidden-xs">
 					<li class="artistes"><a href="#">Rodney Hayden</a></li>
+				<hr class="barre-grise col-lg-4 col-md-6 col-sm-12 hidden-lg hidden-xs">
 					<li class="artistes"><a href="#">Modern Trade</a></li>
 				</ul>
-				<p class="site  col-md-offset-1 col-md-10">Twenty Fourteen WordPress Child Theme by <a href="#">AudioTheme.</a></p>
-			</div>
+				<p class="site col-lg-offset-1 col-lg-10">Twenty Fourteen WordPress Child Theme by <a href="#">AudioTheme.</a></p>
+			
 	</nav>
 </section>
 
-			</div>
-
-		</div>
+</div>
+		
+		
 
 			<footer class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
