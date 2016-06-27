@@ -18,10 +18,6 @@ gérer 	les rollover
 Voila pour ce que je vois
 */
 
-.zonenoire {
-	background-color: yellow;
-	color: white;
-}
 
 /* css concernant tout le document*/
 
@@ -53,6 +49,10 @@ img {
 	background-color: #000000;
 	text-transform: uppercase;
 }
+.zoneImage {
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
 /* css zone blanche*/
@@ -68,6 +68,8 @@ img {
 	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 	text-align: center;
 }
 
@@ -141,10 +143,9 @@ footer {
 	color: #FFFFFF;
 }
 .navgauche {
-	padding-left: 15px;
-	padding-left: 15px;
+	padding:0px;
+	margin: 0px;
 }
-
 
 /*partie faite par hassan*/
 /*mise en place du css  et background*/
