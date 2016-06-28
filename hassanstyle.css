@@ -105,9 +105,19 @@ p {
 }
 
 
-h4 {
-	font-weight: bold;
+/*h4 {
+
+font-weight: bold;
 	text-align: left;
+}*/
+a{
+	color: grey;
+	font-family: "Lato" sans-serif ;
+}
+a:hover{
+	color:#24890D;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 dl {
@@ -137,38 +147,96 @@ dd {
 }
 
 
-/* css le footer*/
-footer {
-	background-color: #000000;
-	color: #FFFFFF;
-}
+/*  MA PARTIE DE CSS   ----HASSAN------*/
+/*NAV BAR CSS ET LIEN et css du format smart*/
+.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
+	}
+
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	.form-control-loupe {
+		width: 20%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
+		border:none;
+		border-radius: 2px;
+	}
+
+
+
+
+	.nav-liens {
+		color: white !important;
+		font-size: 0.7em;
+	}
+
+	.nav-liens:hover {
+		background-color: #24890D !important;
+	}
+
+	.form-control {
+		width: 50%;
+		height: 20px;
+		font-size: 0.7em;
+		float: right;
+		margin-right: 10px;
+		border:none;
+		border-radius: 2px;
+	}
+
+
+
+	.navbar-toggle {
+		border:none;
+	}
+
+	.icon-bar {
+		width: 20px !important;
+	}
+
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+		background-color: black;
+	}
+	
+/* positionnement et background*/
 .navgauche {
-	padding:0px;
-	margin: 0px;
+	font-family: "Lato", sans-serif;
+	padding-left: 15px;
+	padding-left: 15px;
 }
 
-/*partie faite par hassan*/
-/*mise en place du css  et background*/
 nav#sidebar-wrapper{ 
 	background-color: black;
 	padding: 0px;
 	
 }
-/*Les differents liens de la navbar*/
-nav#sidebar-wrapper li a{ 
+  /*different liens de la navbar et des icons*/
+nav#sidebar-wrapper li.border-nav a{ 
 	font-size: 11px;
 	border-bottom: solid 1px grey;
 
 }
-/*Positionnement  des icons*/
 ul.sidebar-nav > li i{ 
 	float:right;
 	
 }
-/*mise en position du h2*/
+li a.nav-liens{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+ /*css du du titre*/
 .sidebar-brand h2.name-navbar{ 
-	font-size:0.9em;
-	text-align: center;
+	font-size:0.8em;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: grey;
 }
 
@@ -185,42 +253,56 @@ ul.sidebar-nav > li i{
 	background-color: black;
 }
 
-
-/*dimensionnement et background de la barre de recherche*/
+/*barre de recherche*/
 input.form-control{
 	width: 70%;
 	height: 25px;
 	float: left;
-	margin-left: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 	background-color: #191919;
 	
 }
 
-/*css de la  barre de recherche*/
+/*style de bordure pour la barre de recherche*/
 input#focusedInput{
 	border: solid 1px grey;
 }
-/*css texte sur la barre de navigation*/
+
 
 p.recent {
 	
 	color: white;
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: bold;
 	margin-top: 30px;
-	
+	margin-left: 0px;
 	margin-bottom:0px;
+	padding-left: 30px;
+	padding-right: 0px;
+
+}
+img:hover {
+    opacity: 0.80;
+    filter:alpha (opacity=80); 
 }
 
 img.img-responsive.col-md-12.offset-1.col-md-10{
 	margin-left:26px; 
 }
 
+.img-responsive.col-lg-12{
+	padding-left: 30px;
+	padding-right: 30px;
+}
 p.release{
-	
+	font-family: "Lato", sans-serif;
 	margin-top: 10px;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-bottom: 0px;
 	font-size: 13px;
 	color: grey;
@@ -229,12 +311,14 @@ p.release{
 }
 
 p.listen {
-
+	font-family: "Lato", sans-serif;
 	color: white;
 	text-decoration: none;
 	margin-bottom: 70px;
-	
 	font-size: 12px;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 p.listen a{
 	color: white;
@@ -243,45 +327,79 @@ p.listen a:hover{
 	color: #24890D;
 	text-decoration: none;
 }
-/*liste des titrest*/
-p.remerciements{
+/*Titre list*/
+p.thanks{
+	font-family: "Lato", sans-serif;
 	color: white;
-	
 	font-size: 11px;
 	font-weight: 800;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
 	
 }
-/*autre List*/
-ul.noms-artistes{ 
+/*chanteurs la liste*/
+ul.noms-chanteurs{ 
+	font-family: "Lato", sans-serif; 
 	list-style: none;
 	margin-bottom: 80px;
-	
-	font-size: 18px;
+	font-size: 12px;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
-li.artistes a{
+li.chanteurs{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.chanteurs a{
 	color:white;
 
 }
-/*hover*/
-li.artistes a:hover{
-	color: #24890D;
-	text-decoration: none;
+
+.chanteurs a:hover{
+	color: green;
+    text-decoration: none;
 }
-p.site{
+}
+hr.barre-grise{
+	border-color: gray;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.page{
+	font-family: "Lato", sans-serif !important;
 	color: grey;
-	font-size: 12px;
-	padding-left: 0px; 
+	font-size: 11px;
+	padding-left: 30px; 
 	padding-right: 0px;
-	
 	margin-right: 0px;
-	text-align: center;
+	margin-left: 0px;
 
 }
-p.site a {
+p.page a {
 	color: white;
 	text-decoration: none;
 }
-p.site a:hover{
-	color: #24890D;
+p.page a:hover{
+	color: green;
 	text-decoration: none;
+}
+
+
+/* css le footer*/
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+/*rajout du hover sur le footer*/
+.texte2 a{
+	color: grey;
+	font-family: "Lato" sans-serif !important;
+}
+
+.texte2 a:hover{
+	color:#24890D;
+	text-decoration: none;
+	cursor: pointer;
 }
